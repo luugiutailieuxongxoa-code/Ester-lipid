@@ -34,3 +34,10 @@ Rubric gợi ý:
 - Bản mẫu chưa có ảnh/video 360° hoặc chức năng kính VR.
 - Báo cáo JSON được tải xuống trên thiết bị; không có hệ thống thu bài trực tuyến.
 - Cần kiểm thử build và chạy trên các thiết bị thực tế trước khi dùng chính thức.
+
+
+## Cập nhật lớp học
+- Chế độ trình chiếu nằm ở thanh trên; có thể bật toàn màn hình và hiển thị QR của URL đang mở. Điện thoại chỉ vào được URL nếu URL đó có thể truy cập từ mạng của học sinh (nên dùng URL Vercel đã triển khai).
+- Nút “Kết quả” mở bảng thống kê cục bộ và tải CSV. Đây không phải bảng điểm trực tuyến toàn lớp: trình duyệt giáo viên không tự nhận kết quả từ các thiết bị khác. Muốn đồng bộ thật cần backend/database, quy tắc định danh học sinh và cơ chế gửi kết quả có xác thực.
+- Mô hình ethyl acetate dùng khung CH₃–C(=O)–O–CH₂–CH₃; liên kết C=O được vẽ đôi. Mô hình triacylglycerol là sơ đồ khung triester, không nên dùng để đo góc/liên kết hoặc xem là cấu trúc không gian định lượng. Đối chiếu SGK trước khi dạy.
+- Việc cài dependency/build chưa được xác minh thành công trong môi trường tạo gói; sau khi tải lên GitHub, kiểm tra log Vercel để xác nhận `npm install` và `npm run build`.
